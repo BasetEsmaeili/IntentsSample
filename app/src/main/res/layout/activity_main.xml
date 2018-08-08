@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="32dp">
+    <Button
+        android:id="@+id/btn_implicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit Button"
+        android:onClick="onClick"/>
+<Button
+    android:id="@+id/btn_explicit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Explicit Button"
+    android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_putEtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PutExtra Intent"
+        android:onClick="onClick"/>
+</LinearLayout>
